@@ -110,24 +110,24 @@ while True:
         score += 0
 
     qst_5 = input("""
-            Which religion believes in One God and the Last Prophet Muhammad (PBUH)? 
-            ------------------------------------------------------------------------
-    A - Islam
-    B - Hinduism
-    C - Buddism
+            What term is used for sweet dishes in English? 
+            ----------------------------------------------
+    A - Savory
+    B - Sour
+    C - Dessert
         
         """
                   ).upper()
 
     if qst_5 == "A":
         print("")
-        score += 1
+        score += 0
     elif qst_5 == "B":
         print("")
         score += 0
     elif qst_5 == "C":
         print("")
-        score += 0
+        score += 1
 
     print("The game is Over !")
 
